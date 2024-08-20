@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            margin: 10px;
+            background-color: rgb(176, 255, 237);
+            padding: 5px;
+            
+        }
+        #main {
+            background-color: rgb(150, 67, 124);
+            
+        
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div id="main">
+        <div>
+        <h1> Registration Form </h1>
+        </div>
+        <form action="">
+            <div>
+                <label for ="name">Name : </label>
+                <input name="name" id="name" type="text" placeholder="Enter Name Here"> </div>
+        <div>
+            <label for="Email" > Email : </label>
+             <input  id="Email" type="email" placeholder="Enter Email Here"> 
+        </div>
+        <div>
+        <label for="city">Select City : </label>
+
+        <select name="city" id="city">
+        <option value="Select Your city">Select Your City</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Bengalore">Bengalore</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Patna">Patna</option>
+        </select></div>
+        <div>
+
+            <label for="Address">Address : </label>
+        <textarea name="" placeholder="Enter Address Here" id="Address" rows="8" cols="50"></textarea>
+        </div>
+        <div>
+       <label for="question">Gender : </label>
+        <input class="question" id="Male" type="radio" name=“question” >  <label for="Male">Male</label> <input class="question" id="Female" type="radio" name=“question”> <label for="Female">Female</label> <input class="question" id="Other" type="radio" name=“question” > <label for="Other">Others</label> </div>
+        <div>
+            <label for="Password">Password : </label>
+            <input id="Password" type="password"></div>
+            <div>
+       <label for="file">Upload File</label> 
+        <input id="file" type="file">
+    </div>
+       
+        <input type="submit">
+        <input type="reset">
+         
+    </form>
+   
+</div>
+
+
+    </center>
+</body>
+</html>
